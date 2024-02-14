@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #123C69;
+    color: #fff;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header div.a {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+header div.a a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+header div.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+header div.contact-info span {
+    margin-left: 10px;
+}
+
+nav {
+    background: #AC3B61;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #AC3B61;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+    margin-top: 20px;
+}
+
+.about-us {
+    max-width: 40%;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #EEE2DC;
+    border-radius: 5%;
+}
+
+.container:hover .about-us {
+    background-color: #e7d3c9;
+}
+
+.about-us p {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    line-height: 1.5;
+    color: #333;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+    background-color: #123C69;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
